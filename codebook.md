@@ -34,10 +34,21 @@ If the name has an underscore between letters, we remove the underscore and capi
 after the underscore.
 
 Transform the values of merged_label according to the activity data frame.
-Combine the merged_subject, merged_label and merged_data by column to get a new cleaned 10299x68 data frame, tidy_data.
+Combine the merged_subject, merged_label and merged_data by column to get a new cleaned 10299x68 data frame, cleaned_data.
 
-Properly name the first two columns, "subject" and "activity". The "subject" column contains integers that range from 1 to 30 inclusive; the "activity" column contains 6 kinds of activity names; the last 66 columns contain measurements that range from -1 to 1 exclusive.
-Write the cleanedData out to "merged_data.txt" file in current working directory.
-Finally, generate a second independent tidy data set with the average of each measurement for each activity and each subject. We have 30 unique subjects and 6 unique activities, which result in a 180 combinations of the two. Then, for each combination, we calculate the mean of each measurement with the corresponding combination. So, after initializing the result data frame and performing the two for-loops, we get a 180x68 data frame.
-Write the result out to "data_with_means.txt" file in current working directory.
-© Xiaodan Zhang 2014 All Rights reserved.
+Properly name the first two columns, "subject" and "activity". 
+The "subject" column contains integers that range from 1 to 30 inclusive; 
+the "activity" column contains 6 kinds of activity names; 
+the last 66 columns contain measurements that range from -1 to 1 exclusive.
+
+Write the cleaned_data out to "tidy_data.txt" file in current working directory.
+
+Finally, generate a second independent tidy data set with the average of each measurement 
+for each activity and each subject. 
+We have 30 unique subjects and 6 unique activities, which result in a 180 combinations of the two. 
+Then, for each combination, we calculate the mean of each measurement with the corresponding combination. 
+So, after initializing the result data frame and performing the two for-loops, we get a 180x68 data frame.
+
+Write the result out to "tidy_data_with_means.txt" file in current working directory.
+
+© Sridher Kaminani, 2014 All Rights reserved.
