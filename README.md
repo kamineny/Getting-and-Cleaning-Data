@@ -21,3 +21,5 @@ and there are 6 activities in total and 30 subjects in total,
 we have 180 rows with all combinations for each of the 66 features.
 
 © Sridher Kaminani, 2014 All Rights reserved.
+
+
