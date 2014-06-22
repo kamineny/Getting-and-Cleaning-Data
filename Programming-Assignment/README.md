@@ -1,6 +1,6 @@
 Repo for Getting and Cleaning Data Course Prog Assignment
 
-This file describes how run_analysis.R script functions:
+This file describes how to run the run_analysis.R script:
 
 1.Unzip the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
