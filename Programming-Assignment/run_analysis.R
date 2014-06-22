@@ -70,3 +70,4 @@ for(i in 1:subject_length) {
 }
 head(result)
 write.table(result, "tidy_data_with_means.txt") # write out the 2nd dataset
+
